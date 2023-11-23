@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&family=Open+Sans:wght@400;700&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --green: #3EE9E5;
+    --white: #FFFFFF;
+    --blue: #093F68;
+    --black: #080C20;
+    --gray: #777F98;
+    --pink: #FF2965;
+    --main-font: 'Manrope', sans-serif;
+}
+
+body {
+    background-color: var(--black);
+}
+
+h1 {
+    color: var(--white);
+    font-family: var(--main-font);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px; /* 116.667% */
+}
+
+h2 {
+    color: var(--white);
+    font-family: var(--main-font);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+h3 {
+    color: var(--white);
+    font-family: var(--main-font);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+h4 {
+    color: var(--white);
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 25px; /* 138.889% */
+}
+
+p {
+    color: var(--gray);
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 166.667% */
+}
+
+.Text-Field {
+    color: var(--white);
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 25px; /* 166.667% */
+    border-radius: 24px;
+    background: var(--blue);
+}
+
+button {
+    color: var(--blue);
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 25px; /* 166.667% */
+    border-radius: 24px;
+    background: var(--green);
+    width: 140px;
+    height: 48px;
+    border-style: none;
+}
+
+button:hover {
+    color: var(--white);
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 25px; /* 166.667% */
+    border-radius: 24px;
+    border: 2px solid var(--green);
+}
+
+button:active {
+    color: var(--white);
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 25px; /* 166.667% */
+    border-radius: 24px;
+    border: 2px solid var(--greens);
+}
+
+/* add form styles */
+/* nav */
+.logo {
+    margin-top: 80px;
+    margin-left: 16p0;
+    margin-bottom: 110px;
+}
+/* fect */
+#fect {
+    background-image: url(./image/background-image-people.png), url(./image/background-image-drawing.png);
+    text-align: center;
+    height: 573px;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    
+}
+
+#fect h1 {
+    color: var(--white);
+}
+
+.fect-color-text{
+    color: var(--green);
+}
+
+.fect-heading {
+    max-width: 730px;
+    margin: 0 auto; 
+}
+
+.fect-p {
+    max-width: 540px;
+    margin: 0 auto; 
+    margin-top: 20px;
+    
+}
+
+.fect-content {
+    padding-top: 150px;
+}
+
+#fect img {
+    margin-top: 50px;
+}
+
+
+
+/* Features */
+#features {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 23px;
+    margin-top: 205px;
+}
+
+#features h4{
+    color: var(--white);
+}
+.feature1 {
+    width: 255px;
+}
+.feature2 {
+    width: 255px;
+    margin-top: 39px;
+}
+.feature3 {
+    width: 255px;
+}
+.feature4 { 
+    width: 255px;
+    margin-top: 39px;
+}
+
+
+
+/* Pricing */
+.pricing-intro {
+    text-align: center;
+    margin-bottom: 117px;
+    margin-top: 202px;
+}
+
+.pricing-intro p {
+    max-width: 540px;
+    margin: 0 auto; /* Center the paragraph horizontally */
+}
+
+.plan1 {
+    background-color: var(--blue);
+    width: 445px;
+    height: 425px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    padding: 49px 38px 48px 38px;
+    position: relative;
+}
+
+.plan1 img {
+    position: absolute;
+    top: -22px;
+    right: 435px;
+}
+
+.plan1 p{
+    color: var(--white); opacity: 0.5973;
+}
+
+.plan1 li{
+    color: var(--white);
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 166.667% */
+    list-style: url(images/ul-green.svg);  
+}
+
+.plan1 h4 {
+    color: white;
+}
+
+.plan1 h1 {
+    color: white;
+} 
+
+.plan2 {
+    background-color: var(--green);
+    width: 445px;
+    height: 449px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    padding: 61px 38px 60px 38px;
+    position: relative;
+}
+
+.plan2 img {
+    position: absolute;
+    top: -34px;
+    right: 435px;
+}
+
+.plan2 p{
+    color: var(--black); opacity: 0.6;
+}
+
+.plan2 li, h4, h1 {
+    color: var(--black);
+}
+
+.plan2 li {
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 166.667% */
+    list-style: url(./image/ul-black.svg);
+}
+
+.plans {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+/* Newsletter */
+#newsletter {
+    background-image: url(images/newsletter-image.png);
+    height: 228px;
+}
+
+#newsletter h3 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+  }
+
+
+#email {
+    width: 320px;
+    height: 48px;
+    border-radius: 24px;
+    background: var(--blue);
+    border-style: none;
+}
+
+input::placeholder {
+    color: var(--white);
+    opacity: 0.4;
+    padding-left: 18px;
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 25px; 
+}
+
+input[type=email]{
+    color: var(--white);
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 25px; 
+    padding-left: 18px;
+}
+  
+.error {
+    color: var(--pink);
+}
+/* Small devices */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .logo {
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+    /* Adjust other styles as needed for smaller screens */
+    .fect-content {
+        padding-top: 100px;
+    }
+
+    #features {
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+    .feature1,
+    .feature2,
+    .feature3,
+    .feature4 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .plan1,
+    .plan2 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .plan1 img,
+    .plan2 img {
+        display: none;
+    }
+
+    .plans {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+/* Medium devices */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Adjust styles for medium-sized screens */
+    h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .logo {
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
+    /* Adjust other styles as needed for medium screens */
+    .fect-content {
+        padding-top: 120px;
+    }
+
+    #features {
+        margin-top: 180px;
+        gap: 15px;
+    }
+
+    .plan1,
+    .plan2 {
+        width: 400px;
+        padding: 40px;
+    }
+
+    .plan1 img,
+    .plan2 img {
+        top: -18px;
+        right: 390px;
+    }
+
+    .plan1 p,
+    .plan2 p {
+        opacity: 0.7;
+    }
+
+    .plan1 li,
+    .plan2 li {
+        font-size: 14px;
+    }
+
+    .plans {
+        gap: 20px;
+    }
+}
+
+/* Large devices */
+@media only screen and (min-width: 1025px) {
+    /* Adjust styles for larger screens */
+    h1 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+    .logo {
+        margin-top: 80px;
+        margin-bottom: 110px;
+    }
+    /* Adjust other styles as needed for larger screens */
+    .fect-content {
+        padding-top: 200px;
+    }
+
+    #features {
+        margin-top: 250px;
+    }
+
+    .feature1,
+    .feature2,
+    .feature3,
+    .feature4 {
+        width: 300px;
+    }
+
+    .plan1,
+    .plan2 {
+        width: 500px;
+        padding: 60px;
+    }
+
+    .plan1 img,
+    .plan2 img {
+        top: -30px;
+        right: 485px;
+    }
+
+    .plan1 p,
+    .plan2 p {
+        opacity: 0.8;
+    }
+
+    .plan1 li,
+    .plan2 li {
+        font-size: 16px;
+    }
+
+    .plans {
+        gap: 50px;
+    }
+}
